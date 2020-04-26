@@ -1,0 +1,115 @@
+/*__________________________________________________BODY */
+
+body{
+    font-family: sans-serif;
+    background-image: url(../Images/Basketball.jpg);
+    background-size: cover;
+}
+
+/*__________________________________________________HEADER */
+
+Header{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/*__________________________________________________NAV */
+
+
+nav {
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+nav ul{
+    font-size: 1.2em;
+}
+
+nav ul li {
+    text-align: center;
+    list-style-type: none;
+    background-color: orange;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+nav ul li:hover{
+    background-color: lightgrey;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*__________________________________________________MAIN */
+
+main{
+ border: solid black;
+    background: white;
+     min-height: 1000px;
+        margin: 15px;
+    padding: 20px;   
+}
+
+section{
+    text-align: left;
+    color: black; 
+}
+
+#indexVideo {
+    text-align: center;   
+}
+
+#content{
+    float:left;
+    padding: 30px;
+     margin: 20px;
+    border: 1px solid black;
+}
+
+/*__________________________________________________ASIDE */
+
+aside{
+    width: 40%;
+    float: right;
+    text-align: center;
+    align-content: center;
+}
+
+/*__________________________________________________FOOTER */
+
+#goToTop {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    color: white;
+    clear: both; 
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: orange;
+    
+    text-align: center;
+    
+    float: right;
+    
+    border: 1px solid black;
+}
+
+
+
+
+.col_detail {
+    column-count: 3;
+   column-rule: 1px solid black;
+    column-gap: 50px;
+}
